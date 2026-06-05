@@ -38,3 +38,9 @@ with open(output, "w") as out_fasta:
             
             except Exception as e:
                 print(f"Error with {gene} {species}: {e}")
+
+
+# In the terminal, in the correct folder:
+# python -m venv venv
+# pip install biopython pandas
+# python scripts/downlaod_sequence.py
